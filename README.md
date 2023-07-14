@@ -13,6 +13,7 @@ Essentially, it does exactly the same as the original implementations, but I've 
 4. **Namespaces**: Both the plugin and the settings classes were moved to its own namespace CustomResourcesPlugin, but they're still part of the Godot namespace.
 5. **Misc**: Plugin project settings were moved to the Mono section as Custom Resources.
 6. **Misc**: The icon field on the RegisteredType (now Register) attribute was moved at the end. You now have to specify first the base type, instead of the icon.
+7. **Misc**: A tooltip was added to the Register button to indicate what it does.
 
 ## Example usage
 
